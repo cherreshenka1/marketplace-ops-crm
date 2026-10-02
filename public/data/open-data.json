@@ -1,0 +1,3857 @@
+{
+  "rates": {
+    "url": "https://www.cbr.ru/scripts/XML_daily.asp",
+    "fetchedAt": "2026-10-02",
+    "data": {
+      "date": "02.10.2026",
+      "rates": [
+        {
+          "code": "GBP",
+          "name": "Фунт стерлингов",
+          "nominal": 1,
+          "rub": 110.5915
+        },
+        {
+          "code": "USD",
+          "name": "Доллар США",
+          "nominal": 1,
+          "rub": 83.2454
+        },
+        {
+          "code": "EUR",
+          "name": "Евро",
+          "nominal": 1,
+          "rub": 94.5252
+        },
+        {
+          "code": "CNY",
+          "name": "Юань",
+          "nominal": 1,
+          "rub": 12.4028
+        }
+      ]
+    }
+  },
+  "books": {
+    "url": "https://openlibrary.org/api/books?bibkeys=ISBN:9781593279509,ISBN:9781491904244,ISBN:9781449393199,ISBN:9780134757599,ISBN:9780132350884,ISBN:9780465050659&format=json&jscmd=data",
+    "fetchedAt": "2026-10-02T12:02:33.776881+00:00",
+    "data": {
+      "ISBN:9781593279509": {
+        "url": "http://openlibrary.org/books/OL26832992M/Eloquent_JavaScript",
+        "key": "/books/OL26832992M",
+        "title": "Eloquent JavaScript",
+        "subtitle": "A Modern Introduction to Programming",
+        "authors": [
+          {
+            "url": "http://openlibrary.org/authors/OL6839743A/Marijn_Haverbeke",
+            "name": "Marijn Haverbeke"
+          }
+        ],
+        "number_of_pages": 472,
+        "identifiers": {
+          "isbn_10": [
+            "1593279507"
+          ],
+          "isbn_13": [
+            "9781593279509"
+          ],
+          "openlibrary": [
+            "OL26832992M"
+          ]
+        },
+        "classifications": {
+          "lc_classifications": [
+            "QA76.73.J39H38 2019"
+          ]
+        },
+        "publishers": [
+          {
+            "name": "No Starch Press"
+          }
+        ],
+        "publish_places": [
+          {
+            "name": "San Francisco, California, United States of America"
+          }
+        ],
+        "publish_date": "Dec 04, 2018",
+        "subjects": [
+          {
+            "name": "JavaScript (Computer program language)",
+            "url": "https://openlibrary.org/subjects/javascript_(computer_program_language)"
+          },
+          {
+            "name": "Computer science",
+            "url": "https://openlibrary.org/subjects/computer_science"
+          },
+          {
+            "name": "programming languages",
+            "url": "https://openlibrary.org/subjects/programming_languages"
+          },
+          {
+            "name": "JavaScript",
+            "url": "https://openlibrary.org/subjects/javascript"
+          }
+        ],
+        "links": [
+          {
+            "title": "Full Text HTML",
+            "url": "http://eloquentjavascript.net/contents.html"
+          },
+          {
+            "title": "BookBrainz (Work)",
+            "url": "https://bookbrainz.org/work/73b7d3a9-2cb2-43fa-9382-b0b2a612bd01"
+          },
+          {
+            "title": "Goodreads (Work)",
+            "url": "https://www.goodreads.com/work/editions/13787033"
+          }
+        ],
+        "ebooks": [
+          {
+            "preview_url": "https://archive.org/details/2018eloquentjavascript",
+            "availability": "full",
+            "formats": {
+              "pdf": {
+                "url": "https://archive.org/download/2018eloquentjavascript/2018eloquentjavascript.pdf"
+              },
+              "epub": {
+                "url": "https://archive.org/download/2018eloquentjavascript/2018eloquentjavascript.epub"
+              },
+              "text": {
+                "url": "https://archive.org/download/2018eloquentjavascript/2018eloquentjavascript_djvu.txt"
+              }
+            },
+            "read_url": "https://archive.org/stream/2018eloquentjavascript"
+          }
+        ],
+        "cover": {
+          "small": "https://covers.openlibrary.org/b/id/8508178-S.jpg",
+          "medium": "https://covers.openlibrary.org/b/id/8508178-M.jpg",
+          "large": "https://covers.openlibrary.org/b/id/8508178-L.jpg"
+        }
+      },
+      "ISBN:9781491904244": {
+        "url": "http://openlibrary.org/books/OL27214662M/You_don't_know_JS",
+        "key": "/books/OL27214662M",
+        "title": "You don't know JS",
+        "subtitle": "ES6 and beyond",
+        "authors": [
+          {
+            "url": "http://openlibrary.org/authors/OL7600387A/Simpson_Kyle_(JavaScript_systems_architect)",
+            "name": "Simpson, Kyle (JavaScript systems architect)"
+          }
+        ],
+        "number_of_pages": 261,
+        "pagination": "xiv, 261 pages",
+        "by_statement": "Kyle Simpson",
+        "identifiers": {
+          "isbn_10": [
+            "1491904240"
+          ],
+          "isbn_13": [
+            "9781491904244"
+          ],
+          "oclc": [
+            "880566619"
+          ],
+          "openlibrary": [
+            "OL27214662M"
+          ]
+        },
+        "classifications": {
+          "lc_classifications": [
+            "QA76.73.J39 S558 2016",
+            "QA76.73.J39"
+          ],
+          "dewey_decimal_class": [
+            "005.2/762"
+          ]
+        },
+        "publishers": [
+          {
+            "name": "O'Reilly Media, Incorporated"
+          }
+        ],
+        "publish_date": "2016",
+        "subjects": [
+          {
+            "name": "Development",
+            "url": "https://openlibrary.org/subjects/development"
+          },
+          {
+            "name": "Application software",
+            "url": "https://openlibrary.org/subjects/application_software"
+          },
+          {
+            "name": "JavaScript (Computer program language)",
+            "url": "https://openlibrary.org/subjects/javascript_(computer_program_language)"
+          },
+          {
+            "name": "Javascript (computer program language)",
+            "url": "https://openlibrary.org/subjects/javascript_(computer_program_language)"
+          }
+        ]
+      },
+      "ISBN:9781449393199": {
+        "url": "http://openlibrary.org/books/OL26834162M/CSS",
+        "key": "/books/OL26834162M",
+        "title": "CSS",
+        "subtitle": "The Definitive Guide",
+        "authors": [
+          {
+            "url": "http://openlibrary.org/authors/OL1401167A/Eric_A._Meyer",
+            "name": "Eric A. Meyer"
+          },
+          {
+            "url": "http://openlibrary.org/authors/OL7203662A/Estelle_Weyl",
+            "name": "Estelle Weyl"
+          }
+        ],
+        "number_of_pages": 1090,
+        "identifiers": {
+          "isbn_10": [
+            "1449393195"
+          ],
+          "isbn_13": [
+            "9781449393199"
+          ],
+          "oclc": [
+            "1006727684"
+          ],
+          "openlibrary": [
+            "OL26834162M"
+          ]
+        },
+        "classifications": {
+          "lc_classifications": [
+            "TK5105.888",
+            "QA76.76.H94"
+          ]
+        },
+        "publishers": [
+          {
+            "name": "O'Reilly Media"
+          }
+        ],
+        "publish_date": "Nov 09, 2017",
+        "subjects": [
+          {
+            "name": "Computer graphics",
+            "url": "https://openlibrary.org/subjects/computer_graphics"
+          },
+          {
+            "name": "Cascading style sheets",
+            "url": "https://openlibrary.org/subjects/cascading_style_sheets"
+          },
+          {
+            "name": "Web sites",
+            "url": "https://openlibrary.org/subjects/web_sites"
+          },
+          {
+            "name": "HTML (Document markup language)",
+            "url": "https://openlibrary.org/subjects/html_(document_markup_language)"
+          },
+          {
+            "name": "Design",
+            "url": "https://openlibrary.org/subjects/design"
+          },
+          {
+            "name": "Web sites, design",
+            "url": "https://openlibrary.org/subjects/web_sites,_design"
+          },
+          {
+            "name": "Internet programming",
+            "url": "https://openlibrary.org/subjects/internet_programming"
+          },
+          {
+            "name": "Web site development",
+            "url": "https://openlibrary.org/subjects/web_site_development"
+          },
+          {
+            "name": "COMPUTERS",
+            "url": "https://openlibrary.org/subjects/computers"
+          },
+          {
+            "name": "General",
+            "url": "https://openlibrary.org/subjects/general"
+          },
+          {
+            "name": "Web sites--design",
+            "url": "https://openlibrary.org/subjects/web_sites--design"
+          },
+          {
+            "name": "Qa76.76.h94 m47 2004",
+            "url": "https://openlibrary.org/subjects/qa76.76.h94_m47_2004"
+          },
+          {
+            "name": "006.7",
+            "url": "https://openlibrary.org/subjects/006.7"
+          },
+          {
+            "name": "Qa76.76.h94 m47 2000",
+            "url": "https://openlibrary.org/subjects/qa76.76.h94_m47_2000"
+          },
+          {
+            "name": "005.7/2",
+            "url": "https://openlibrary.org/subjects/005.7/2"
+          }
+        ],
+        "cover": {
+          "small": "https://covers.openlibrary.org/b/id/8509850-S.jpg",
+          "medium": "https://covers.openlibrary.org/b/id/8509850-M.jpg",
+          "large": "https://covers.openlibrary.org/b/id/8509850-L.jpg"
+        }
+      },
+      "ISBN:9780134757599": {
+        "url": "http://openlibrary.org/books/OL26629721M/Refactoring",
+        "key": "/books/OL26629721M",
+        "title": "Refactoring",
+        "subtitle": "Improving the Design of Existing Code",
+        "authors": [
+          {
+            "url": "http://openlibrary.org/authors/OL27090A/Martin_Fowler",
+            "name": "Martin Fowler"
+          }
+        ],
+        "number_of_pages": 448,
+        "identifiers": {
+          "isbn_13": [
+            "9780134757599"
+          ],
+          "openlibrary": [
+            "OL26629721M"
+          ]
+        },
+        "classifications": {
+          "lc_classifications": [
+            "QA76.76.R42F69 2017"
+          ]
+        },
+        "publishers": [
+          {
+            "name": "Addision-Wesley"
+          }
+        ],
+        "publish_date": "2018",
+        "subjects": [
+          {
+            "name": "Software engineering",
+            "url": "https://openlibrary.org/subjects/software_engineering"
+          },
+          {
+            "name": "Object-oriented programming (computer science)",
+            "url": "https://openlibrary.org/subjects/object-oriented_programming_(computer_science)"
+          },
+          {
+            "name": "Software reengineering",
+            "url": "https://openlibrary.org/subjects/software_reengineering"
+          }
+        ],
+        "cover": {
+          "small": "https://covers.openlibrary.org/b/id/8507565-S.jpg",
+          "medium": "https://covers.openlibrary.org/b/id/8507565-M.jpg",
+          "large": "https://covers.openlibrary.org/b/id/8507565-L.jpg"
+        }
+      },
+      "ISBN:9780132350884": {
+        "url": "http://openlibrary.org/books/OL26222911M/Clean_Code",
+        "key": "/books/OL26222911M",
+        "title": "Clean Code",
+        "subtitle": "A Handbook of Agile Software Craftsmanship",
+        "authors": [
+          {
+            "url": "http://openlibrary.org/authors/OL2653686A/Robert_C._Martin",
+            "name": "Robert C. Martin"
+          }
+        ],
+        "number_of_pages": 431,
+        "identifiers": {
+          "isbn_10": [
+            "0132350882"
+          ],
+          "isbn_13": [
+            "9780132350884"
+          ],
+          "lccn": [
+            "2008024750"
+          ],
+          "openlibrary": [
+            "OL26222911M"
+          ]
+        },
+        "classifications": {
+          "lc_classifications": [
+            "QA76.76.D47M3652",
+            "QA76.76.D47 C583 2009"
+          ]
+        },
+        "publishers": [
+          {
+            "name": "Prentice Hall"
+          }
+        ],
+        "publish_date": "July 2008",
+        "subjects": [
+          {
+            "name": "Agile software development",
+            "url": "https://openlibrary.org/subjects/agile_software_development"
+          },
+          {
+            "name": "Reliability",
+            "url": "https://openlibrary.org/subjects/reliability"
+          },
+          {
+            "name": "Computer software",
+            "url": "https://openlibrary.org/subjects/computer_software"
+          },
+          {
+            "name": "Computer software, development",
+            "url": "https://openlibrary.org/subjects/computer_software,_development"
+          },
+          {
+            "name": "Coding theory",
+            "url": "https://openlibrary.org/subjects/coding_theory"
+          }
+        ],
+        "excerpts": [
+          {
+            "text": "You are reading this book for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.",
+            "comment": "",
+            "first_sentence": true
+          },
+          {
+            "text": "You are reading this book for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.",
+            "comment": ""
+          }
+        ],
+        "table_of_contents": [
+          {
+            "level": 0,
+            "label": "",
+            "title": "Foreword",
+            "pagenum": "xix"
+          },
+          {
+            "level": 0,
+            "label": "",
+            "title": "Introduction",
+            "pagenum": "xxv"
+          },
+          {
+            "level": 0,
+            "label": "",
+            "title": "On the Cover",
+            "pagenum": "xxix"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 1",
+            "title": "Clean Code",
+            "pagenum": "1"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "There Will Be Code",
+            "pagenum": "2"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bad Code",
+            "pagenum": "3"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Total Cost of Owning a Mess",
+            "pagenum": "4"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "The Grand Redesign in the Sky",
+            "pagenum": "5"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Attitude",
+            "pagenum": "5"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "The Primal Conundrum",
+            "pagenum": "6"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "The Art of Clean Code?",
+            "pagenum": "6"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "What Is Clean Code?",
+            "pagenum": "7"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Schools of Thought",
+            "pagenum": "12"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "We Are Authors",
+            "pagenum": "13"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Boy Scout Rule",
+            "pagenum": "14"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Prequel and Principles",
+            "pagenum": "15"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "15"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "15"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 2",
+            "title": "Meaningful Names",
+            "pagenum": "17"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "A Introduction",
+            "pagenum": "17"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Use Intention-Revealing Names",
+            "pagenum": "18"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Avoid Disinformation",
+            "pagenum": "19"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Make Meaningful Distinctions",
+            "pagenum": "20"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Use Pronounceable Names",
+            "pagenum": "21"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Use Searchable Names",
+            "pagenum": "22"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Avoid Encodings",
+            "pagenum": "23"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Hungarian Notation",
+            "pagenum": "23"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Member Prefixes",
+            "pagenum": "24"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Interfaces and Implementations",
+            "pagenum": "24"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Avoid Mental Mapping",
+            "pagenum": "25"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Class Names",
+            "pagenum": "25"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Method Names",
+            "pagenum": "25"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Don't Be Cute",
+            "pagenum": "26"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Pick One Word per Concept",
+            "pagenum": "26"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Don't Pun",
+            "pagenum": "26"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Use Solution Domain Names",
+            "pagenum": "27"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Use Problem Domain Names",
+            "pagenum": "27"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Add Meaningful Context",
+            "pagenum": "27"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Don't Add Gratuitous Context",
+            "pagenum": "29"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Final Words",
+            "pagenum": "30"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 3",
+            "title": "Functions",
+            "pagenum": "31"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Small!",
+            "pagenum": "34"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Blocks and Indenting",
+            "pagenum": "35"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Do One Thing",
+            "pagenum": "35"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Sections within Functions",
+            "pagenum": "36"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "One Level of Abstraction per Function",
+            "pagenum": "36"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Reading Code from Top to Bottom: The Stepdown Rule",
+            "pagenum": "37"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Switch Statements",
+            "pagenum": "37"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Use Descriptive Names",
+            "pagenum": "39"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Function Arguments",
+            "pagenum": "40"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Common Monadic Forms",
+            "pagenum": "41"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Flag Arguments",
+            "pagenum": "41"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Dyadic Functions",
+            "pagenum": "42"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Triads",
+            "pagenum": "42"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Argument Objects",
+            "pagenum": "43"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Argument Lists",
+            "pagenum": "43"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Verbs and Keywords",
+            "pagenum": "43"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Have No Side Effects",
+            "pagenum": "44"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Output Arguments",
+            "pagenum": "45"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Command Query Separation",
+            "pagenum": "45"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Prefer Exceptions to Returning Error Codes",
+            "pagenum": "46"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Extract Try/Catch Blocks",
+            "pagenum": "46"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Error Handling Is One Thing",
+            "pagenum": "47"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "The Error.java Dependency Magnet",
+            "pagenum": "47"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Don't Repeat Yourself",
+            "pagenum": "48"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Structured Programming",
+            "pagenum": "48"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "How Do You Write Functions Like This?",
+            "pagenum": "49"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "49"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "SetupTeardownIncluder",
+            "pagenum": "50"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "52"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 4",
+            "title": "Comments",
+            "pagenum": "53"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Comments Do Not Make Up for Bad Code",
+            "pagenum": "55"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Explain Yourself in Code",
+            "pagenum": "55"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Good Comments",
+            "pagenum": "55"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Legal Comments",
+            "pagenum": "55"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Informative Comments",
+            "pagenum": "56"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Explanation of Intent",
+            "pagenum": "56"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Clarification",
+            "pagenum": "57"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Warning of Consequences",
+            "pagenum": "58"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "TODO Comments",
+            "pagenum": "58"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Amplification",
+            "pagenum": "59"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Javadocs in Public APIs",
+            "pagenum": "59"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bad Comments",
+            "pagenum": "59"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Mumbling",
+            "pagenum": "59"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Redundant Comments",
+            "pagenum": "60"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Misleading Comments",
+            "pagenum": "63"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Mandated Comments",
+            "pagenum": "63"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Journal Comments",
+            "pagenum": "63"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Noise Comments",
+            "pagenum": "64"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Scary Noise",
+            "pagenum": "66"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Don't Use a Comment When You Can Use a Function or a Variable",
+            "pagenum": "67"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Position Markers",
+            "pagenum": "67"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Closing Brace Comments",
+            "pagenum": "67"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Attributions and Bylines",
+            "pagenum": "68"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Commented-Out Code",
+            "pagenum": "68"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "HTML Comments",
+            "pagenum": "69"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Nonlocal Information",
+            "pagenum": "69"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Too Much Information",
+            "pagenum": "70"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Inobvious Connection",
+            "pagenum": "70"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Function Headers",
+            "pagenum": "70"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Javadocs in Nonpublic Code",
+            "pagenum": "71"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Example",
+            "pagenum": "71"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "74"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 5",
+            "title": "Formatting",
+            "pagenum": "75"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Purpose of Formatting",
+            "pagenum": "76"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Vertical Formatting",
+            "pagenum": "76"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "The Newspaper Metaphor",
+            "pagenum": "77"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Vertical Openness Between Concepts",
+            "pagenum": "78"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Vertical Density",
+            "pagenum": "79"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Vertical Distance",
+            "pagenum": "80"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Vertical Ordering",
+            "pagenum": "84"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Horizontal Formatting",
+            "pagenum": "85"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Horizontal Openness and Density",
+            "pagenum": "86"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Horizontal Alignment",
+            "pagenum": "87"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Indentation",
+            "pagenum": "88"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Dummy Scopes",
+            "pagenum": "90"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Team Rules",
+            "pagenum": "90"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Uncle Bob's Formatting Rules",
+            "pagenum": "90"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 6",
+            "title": "Objects and Data Structures",
+            "pagenum": "93"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Data Abstraction",
+            "pagenum": "93"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Data/Object Anti-Symmetry",
+            "pagenum": "95"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Law of Demeter",
+            "pagenum": "97"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Train Wrecks",
+            "pagenum": "98"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Hybrids",
+            "pagenum": "99"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Hiding Structure",
+            "pagenum": "99"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Data Transfer Objects",
+            "pagenum": "100"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Active Record",
+            "pagenum": "101"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "101"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "101"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 7",
+            "title": "Error Handling",
+            "pagenum": "103"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Use Exceptions Rather Than Return Codes",
+            "pagenum": "104"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Write Your Try-Catch-Finally Statement First",
+            "pagenum": "105"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Use Unchecked Exceptions",
+            "pagenum": "106"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Provide Context with Exceptions",
+            "pagenum": "107"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Define Exception Classes in Terms of a Caller's Needs",
+            "pagenum": "107"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Define the Normal Flow",
+            "pagenum": "109"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Don't Return Null",
+            "pagenum": "110"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Don't Pass Null",
+            "pagenum": "111"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "112"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "112"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 8",
+            "title": "Boundaries",
+            "pagenum": "113"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Using Third-Party Code",
+            "pagenum": "114"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Exploring and Learning Boundaries",
+            "pagenum": "116"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Learning log4j",
+            "pagenum": "116"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Learning Tests Are Better Than Free",
+            "pagenum": "118"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Using Code That Does Not Yet Exist",
+            "pagenum": "118"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Clean Boundaries",
+            "pagenum": "120"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "120"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 9",
+            "title": "Unit Tests",
+            "pagenum": "121"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Three Laws of TDD",
+            "pagenum": "122"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Keeping Tests Clean",
+            "pagenum": "123"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Tests Enable the -ilities",
+            "pagenum": "124"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Clean Tests",
+            "pagenum": "124"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Domain-Specific Testing Language",
+            "pagenum": "127"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "A Dual Standard",
+            "pagenum": "127"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "One Assert per Test",
+            "pagenum": "130"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Single Concept per Test",
+            "pagenum": "131"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "F.I.R.S.T.",
+            "pagenum": "132"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "133"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "133"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 10",
+            "title": "Classes",
+            "pagenum": "135"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Class Organization",
+            "pagenum": "136"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Encapsulation",
+            "pagenum": "136"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Classes Should Be Small!",
+            "pagenum": "138"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "The Single Responsibility Principle",
+            "pagenum": "138"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Cohesion",
+            "pagenum": "140"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Maintaining Cohesion Results in Many Small Classes",
+            "pagenum": "141"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Organizing for Change",
+            "pagenum": "147"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Isolating from Change",
+            "pagenum": "149"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "151"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 11",
+            "title": "Systems",
+            "pagenum": "153"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "How Would You Build a City?",
+            "pagenum": "154"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Separate Constructing a System from Using It",
+            "pagenum": "154"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Separation of Main",
+            "pagenum": "155"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Factories",
+            "pagenum": "155"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Dependency Injection",
+            "pagenum": "157"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Scaling Up",
+            "pagenum": "157"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Cross-Cutting Concerns",
+            "pagenum": "160"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Java Proxies",
+            "pagenum": "161"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Pure Java AOP Frameworks",
+            "pagenum": "163"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "AspectJ Aspects",
+            "pagenum": "166"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Test Drive the System Architecture",
+            "pagenum": "166"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Optimize Decision Making",
+            "pagenum": "167"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Use Standards Wisely, When They Add Demonstrable Value",
+            "pagenum": "168"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Systems Need Domain-Specific Languages",
+            "pagenum": "168"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "169"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "169"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 12",
+            "title": "Emergence",
+            "pagenum": "171"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Getting Clean via Emergent Design",
+            "pagenum": "171"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Simple Design Rule 1: Runs All the Tests",
+            "pagenum": "172"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Simple Design Rules 2-4: Refactoring",
+            "pagenum": "172"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "No Duplication",
+            "pagenum": "173"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Expressive",
+            "pagenum": "175"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Minimal Classes and Methods",
+            "pagenum": "176"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "176"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "176"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 13",
+            "title": "Concurrency",
+            "pagenum": "177"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Why Concurrency?",
+            "pagenum": "178"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Myths and Misconceptions",
+            "pagenum": "179"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Challenges",
+            "pagenum": "180"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Concurrency Defense Principles",
+            "pagenum": "180"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Single Responsibility Principle",
+            "pagenum": "181"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Corollary: Limit the Scope of Data",
+            "pagenum": "181"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Corollary: Use Copies of Data",
+            "pagenum": "181"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Corollary: Threads Should Be as Independent as Possible",
+            "pagenum": "182"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Know Your Library",
+            "pagenum": "182"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Thread-Safe Collections",
+            "pagenum": "182"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Know Your Execution Models",
+            "pagenum": "183"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Producer-Consumer",
+            "pagenum": "184"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Readers-Writers",
+            "pagenum": "184"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Dining Philosophers",
+            "pagenum": "184"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Beware Dependencies Between Synchronized Methods",
+            "pagenum": "185"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Keep Synchronized Sections Small",
+            "pagenum": "185"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Writing Correct Shut-Down Code Is Hard",
+            "pagenum": "186"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Testing Threaded Code",
+            "pagenum": "186"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Treat Spurious Failures as Candidate Threading Issues",
+            "pagenum": "187"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Get Your Nonthreaded Code Working First",
+            "pagenum": "187"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Make Your Threaded Code Pluggable",
+            "pagenum": "187"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Make Your Threaded Code Tunable",
+            "pagenum": "187"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Run with More Threads Than Processors",
+            "pagenum": "188"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Run on Different Platforms",
+            "pagenum": "188"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Instrument Your Code to Try and Force Failures",
+            "pagenum": "188"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Hand-Coded",
+            "pagenum": "189"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Automated",
+            "pagenum": "189"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "190"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "191"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 14",
+            "title": "Successive Refinement",
+            "pagenum": "193"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Args Implementation",
+            "pagenum": "194"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "How Did I Do This?",
+            "pagenum": "200"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Args: The Rough Draft",
+            "pagenum": "201"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "So I Stopped",
+            "pagenum": "212"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "On Incrementalism",
+            "pagenum": "212"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "String Arguments",
+            "pagenum": "214"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "250"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 15",
+            "title": "JUnit Internals",
+            "pagenum": "251"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The JUnit Framework",
+            "pagenum": "252"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "265"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 16",
+            "title": "Refactoring SerialDate",
+            "pagenum": "267"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "First, Make It Work",
+            "pagenum": "268"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Then Make It Right",
+            "pagenum": "270"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "284"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "284"
+          },
+          {
+            "level": 0,
+            "label": "Chapter 17",
+            "title": "Smells and Heuristics",
+            "pagenum": "285"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Comments",
+            "pagenum": "286"
+          },
+          {
+            "level": 2,
+            "label": "C1",
+            "title": "Inappropriate Information",
+            "pagenum": "286"
+          },
+          {
+            "level": 2,
+            "label": "C2",
+            "title": "Obsolete Comment",
+            "pagenum": "286"
+          },
+          {
+            "level": 2,
+            "label": "C3",
+            "title": "Redundant Comment",
+            "pagenum": "286"
+          },
+          {
+            "level": 2,
+            "label": "C4",
+            "title": "Poorly Written Comment",
+            "pagenum": "287"
+          },
+          {
+            "level": 2,
+            "label": "C5",
+            "title": "Commented-Out Code",
+            "pagenum": "287"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Environment",
+            "pagenum": "287"
+          },
+          {
+            "level": 2,
+            "label": "E1",
+            "title": "Build Requires More Than One Step",
+            "pagenum": "287"
+          },
+          {
+            "level": 2,
+            "label": "E2",
+            "title": "Tests Require More Than One Step",
+            "pagenum": "287"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Functions",
+            "pagenum": "288"
+          },
+          {
+            "level": 2,
+            "label": "F1",
+            "title": "Too Many Arguments",
+            "pagenum": "288"
+          },
+          {
+            "level": 2,
+            "label": "F2",
+            "title": "Output Arguments",
+            "pagenum": "288"
+          },
+          {
+            "level": 2,
+            "label": "F3",
+            "title": "Flag Arguments",
+            "pagenum": "288"
+          },
+          {
+            "level": 2,
+            "label": "F4",
+            "title": "Dead Function",
+            "pagenum": "288"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "General",
+            "pagenum": "288"
+          },
+          {
+            "level": 2,
+            "label": "G1",
+            "title": "Multiple Languages in One Source File",
+            "pagenum": "288"
+          },
+          {
+            "level": 2,
+            "label": "G2",
+            "title": "Obvious Behavior Is Unimplemented",
+            "pagenum": "288"
+          },
+          {
+            "level": 2,
+            "label": "G3",
+            "title": "Incorrect Behavior at the Boundaries",
+            "pagenum": "289"
+          },
+          {
+            "level": 2,
+            "label": "G4",
+            "title": "Overridden Safeties",
+            "pagenum": "289"
+          },
+          {
+            "level": 2,
+            "label": "G5",
+            "title": "Duplication",
+            "pagenum": "289"
+          },
+          {
+            "level": 2,
+            "label": "G6",
+            "title": "Code at Wrong Level of Abstraction",
+            "pagenum": "290"
+          },
+          {
+            "level": 2,
+            "label": "G7",
+            "title": "Base Classes Depending on Their Derivatives",
+            "pagenum": "291"
+          },
+          {
+            "level": 2,
+            "label": "G8",
+            "title": "Too Much Information",
+            "pagenum": "291"
+          },
+          {
+            "level": 2,
+            "label": "G9",
+            "title": "Dead Code",
+            "pagenum": "292"
+          },
+          {
+            "level": 2,
+            "label": "G10",
+            "title": "Vertical Separation",
+            "pagenum": "292"
+          },
+          {
+            "level": 2,
+            "label": "G11",
+            "title": "Inconsistency",
+            "pagenum": "292"
+          },
+          {
+            "level": 2,
+            "label": "G12",
+            "title": "Clutter",
+            "pagenum": "293"
+          },
+          {
+            "level": 2,
+            "label": "G13",
+            "title": "Artificial Coupling",
+            "pagenum": "293"
+          },
+          {
+            "level": 2,
+            "label": "G14",
+            "title": "Feature Envy",
+            "pagenum": "293"
+          },
+          {
+            "level": 2,
+            "label": "G15",
+            "title": "Selector Arguments",
+            "pagenum": "294"
+          },
+          {
+            "level": 2,
+            "label": "G16",
+            "title": "Obscured Intent",
+            "pagenum": "295"
+          },
+          {
+            "level": 2,
+            "label": "G17",
+            "title": "Misplaced Responsibility",
+            "pagenum": "295"
+          },
+          {
+            "level": 2,
+            "label": "G18",
+            "title": "Inappropriate Static",
+            "pagenum": "296"
+          },
+          {
+            "level": 2,
+            "label": "G19",
+            "title": "Use Explanatory Variables",
+            "pagenum": "296"
+          },
+          {
+            "level": 2,
+            "label": "G20",
+            "title": "Function Names Should Say What They Do",
+            "pagenum": "297"
+          },
+          {
+            "level": 2,
+            "label": "G21",
+            "title": "Understand the Algorithm",
+            "pagenum": "297"
+          },
+          {
+            "level": 2,
+            "label": "G22",
+            "title": "Make Logical Dependencies Physical",
+            "pagenum": "298"
+          },
+          {
+            "level": 2,
+            "label": "G23",
+            "title": "Prefer Polymorphism to If/Else or Switch/Case",
+            "pagenum": "299"
+          },
+          {
+            "level": 2,
+            "label": "G24",
+            "title": "Follow Standard Conventions",
+            "pagenum": "299"
+          },
+          {
+            "level": 2,
+            "label": "G25",
+            "title": "Replace Magic Numbers with Named Constants",
+            "pagenum": "300"
+          },
+          {
+            "level": 2,
+            "label": "G26",
+            "title": "Be Precise",
+            "pagenum": "301"
+          },
+          {
+            "level": 2,
+            "label": "G27",
+            "title": "Structure over Convention",
+            "pagenum": "301"
+          },
+          {
+            "level": 2,
+            "label": "G28",
+            "title": "Encapsulate Conditionals",
+            "pagenum": "301"
+          },
+          {
+            "level": 2,
+            "label": "G29",
+            "title": "Avoid Negative Conditionals",
+            "pagenum": "302"
+          },
+          {
+            "level": 2,
+            "label": "G30",
+            "title": "Functions Should Do One Thing",
+            "pagenum": "302"
+          },
+          {
+            "level": 2,
+            "label": "G31",
+            "title": "Hidden Temporal Couplings",
+            "pagenum": "302"
+          },
+          {
+            "level": 2,
+            "label": "G32",
+            "title": "Don't Be Arbitrary",
+            "pagenum": "303"
+          },
+          {
+            "level": 2,
+            "label": "G33",
+            "title": "Encapsulate Boundary Conditions",
+            "pagenum": "304"
+          },
+          {
+            "level": 2,
+            "label": "G34",
+            "title": "Functions Should Descend Only One Level of Abstraction",
+            "pagenum": "304"
+          },
+          {
+            "level": 2,
+            "label": "G35",
+            "title": "Keep Configurable Data at High Levels",
+            "pagenum": "306"
+          },
+          {
+            "level": 2,
+            "label": "G36",
+            "title": "Avoid Transitive Navigation",
+            "pagenum": "306"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Java",
+            "pagenum": "307"
+          },
+          {
+            "level": 2,
+            "label": "J1",
+            "title": "Avoid Long Import Lists by Using Wildcards",
+            "pagenum": "307"
+          },
+          {
+            "level": 2,
+            "label": "J2",
+            "title": "Don't Inherit Constants",
+            "pagenum": "307"
+          },
+          {
+            "level": 2,
+            "label": "J3",
+            "title": "Constants versus Enums",
+            "pagenum": "308"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Names",
+            "pagenum": "309"
+          },
+          {
+            "level": 2,
+            "label": "N1",
+            "title": "Choose Descriptive Names",
+            "pagenum": "309"
+          },
+          {
+            "level": 2,
+            "label": "N2",
+            "title": "Choose Names at the Appropriate Level of Abstraction",
+            "pagenum": "311"
+          },
+          {
+            "level": 2,
+            "label": "N3",
+            "title": "Use Standard Nomenclature Where Possible",
+            "pagenum": "311"
+          },
+          {
+            "level": 2,
+            "label": "N4",
+            "title": "Unambiguous Names",
+            "pagenum": "312"
+          },
+          {
+            "level": 2,
+            "label": "N5",
+            "title": "Use Long Names for Long Scopes",
+            "pagenum": "312"
+          },
+          {
+            "level": 2,
+            "label": "N6",
+            "title": "Avoid Encodings",
+            "pagenum": "312"
+          },
+          {
+            "level": 2,
+            "label": "N7",
+            "title": "Names Should Describe Side-Effects",
+            "pagenum": "313"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Tests",
+            "pagenum": "313"
+          },
+          {
+            "level": 2,
+            "label": "T1",
+            "title": "Insufficient Tests",
+            "pagenum": "313"
+          },
+          {
+            "level": 2,
+            "label": "T2",
+            "title": "Use a Coverage Tool!",
+            "pagenum": "313"
+          },
+          {
+            "level": 2,
+            "label": "T3",
+            "title": "Don't Skip Trivial Tests",
+            "pagenum": "313"
+          },
+          {
+            "level": 2,
+            "label": "T4",
+            "title": "An Ignored Test Is a Question About an Ambiguity",
+            "pagenum": "313"
+          },
+          {
+            "level": 2,
+            "label": "T5",
+            "title": "Test Boundary Conditions",
+            "pagenum": "314"
+          },
+          {
+            "level": 2,
+            "label": "T6",
+            "title": "Exhaustively Test Near Bugs",
+            "pagenum": "314"
+          },
+          {
+            "level": 2,
+            "label": "T7",
+            "title": "Patterns of Failure Are Revealing",
+            "pagenum": "314"
+          },
+          {
+            "level": 2,
+            "label": "T8",
+            "title": "Test Coverage Patterns Can Be Revealing",
+            "pagenum": "314"
+          },
+          {
+            "level": 2,
+            "label": "T9",
+            "title": "Tests Should Be Fast",
+            "pagenum": "314"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "314"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Bibliography",
+            "pagenum": "315"
+          },
+          {
+            "level": 0,
+            "label": "Appendix A",
+            "title": "Concurrency",
+            "pagenum": "317"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Client/Server Example",
+            "pagenum": "317"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "The Server",
+            "pagenum": "317"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Adding Threading",
+            "pagenum": "319"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Server Observations",
+            "pagenum": "319"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "321"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Possible Paths of Execution",
+            "pagenum": "321"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Number of Paths",
+            "pagenum": "322"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Digging Deeper",
+            "pagenum": "323"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "326"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Knowing Your Library",
+            "pagenum": "326"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Executor Framework",
+            "pagenum": "326"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Nonblocking Solutions",
+            "pagenum": "327"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Nonthread-Safe Classes",
+            "pagenum": "328"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Dependencies Between Methods Can Break Concurrent Code",
+            "pagenum": "329"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Tolerate the Failure",
+            "pagenum": "330"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Client-Based Locking",
+            "pagenum": "330"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Server-Based Locking",
+            "pagenum": "332"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Increasing Throughput",
+            "pagenum": "333"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Single-Thread Calculation of Throughput",
+            "pagenum": "334"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Multithread Calculation of Throughput",
+            "pagenum": "335"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Deadlock",
+            "pagenum": "335"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Mutual Exclusion",
+            "pagenum": "336"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Lock & Wait",
+            "pagenum": "337"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "No Preemption",
+            "pagenum": "337"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Circular Wait",
+            "pagenum": "337"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Breaking Mutual Exclusion",
+            "pagenum": "337"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Breaking Lock & Wait",
+            "pagenum": "338"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Breaking Preemption",
+            "pagenum": "338"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Breaking Circular Wait",
+            "pagenum": "338"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Testing Multithreaded Code",
+            "pagenum": "339"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Tool Support for Testing Thread-Based Code",
+            "pagenum": "342"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conclusion",
+            "pagenum": "342"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Tutorial: Full Code Examples",
+            "pagenum": "343"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Client/Server Nonthreaded",
+            "pagenum": "343"
+          },
+          {
+            "level": 2,
+            "label": "",
+            "title": "Client/Server Using Threads",
+            "pagenum": "347"
+          },
+          {
+            "level": 0,
+            "label": "Appendix B",
+            "title": "org.jfree.date.SerialDate",
+            "pagenum": "349"
+          },
+          {
+            "level": 0,
+            "label": "Appendix C",
+            "title": "Cross References of Heuristics",
+            "pagenum": "409"
+          },
+          {
+            "level": 0,
+            "label": "",
+            "title": "Epilogue",
+            "pagenum": "411"
+          },
+          {
+            "level": 0,
+            "label": "",
+            "title": "Index",
+            "pagenum": "413"
+          }
+        ],
+        "ebooks": [
+          {
+            "preview_url": "https://archive.org/details/cleancodehandboo0000unse",
+            "availability": "restricted",
+            "formats": {}
+          }
+        ],
+        "cover": {
+          "small": "https://covers.openlibrary.org/b/id/15126503-S.jpg",
+          "medium": "https://covers.openlibrary.org/b/id/15126503-M.jpg",
+          "large": "https://covers.openlibrary.org/b/id/15126503-L.jpg"
+        }
+      },
+      "ISBN:9780465050659": {
+        "url": "http://openlibrary.org/books/OL25726927M/The_Design_of_Everyday_Things",
+        "key": "/books/OL25726927M",
+        "title": "The Design of Everyday Things",
+        "authors": [
+          {
+            "url": "http://openlibrary.org/authors/OL224976A/Donald_A._Norman",
+            "name": "Donald A. Norman"
+          }
+        ],
+        "number_of_pages": 368,
+        "weight": "12.8 ounces",
+        "identifiers": {
+          "wikidata": [
+            "Q111719385"
+          ],
+          "isbn_10": [
+            "0465050654"
+          ],
+          "lccn": [
+            "2013024417"
+          ],
+          "oclc": [
+            "849801329",
+            "869567342"
+          ],
+          "openlibrary": [
+            "OL25726927M"
+          ]
+        },
+        "classifications": {
+          "lc_classifications": [
+            "TS171.4 .N67 2013",
+            "TS171.4.N67 2013"
+          ]
+        },
+        "publishers": [
+          {
+            "name": "Basic Books"
+          }
+        ],
+        "publish_date": "2013",
+        "subjects": [
+          {
+            "name": "Ergonomie",
+            "url": "https://openlibrary.org/subjects/ergonomie"
+          },
+          {
+            "name": "Industrial Psychology",
+            "url": "https://openlibrary.org/subjects/industrial_psychology"
+          },
+          {
+            "name": "Industriële vormgeving",
+            "url": "https://openlibrary.org/subjects/industriële_vormgeving"
+          },
+          {
+            "name": "Industrial Design",
+            "url": "https://openlibrary.org/subjects/industrial_design"
+          },
+          {
+            "name": "Psychological aspects",
+            "url": "https://openlibrary.org/subjects/psychological_aspects"
+          },
+          {
+            "name": "Psychology textbooks",
+            "url": "https://openlibrary.org/subjects/psychology_textbooks"
+          },
+          {
+            "name": "Psychological aspects of Industrial design",
+            "url": "https://openlibrary.org/subjects/psychological_aspects_of_industrial_design"
+          },
+          {
+            "name": "Textbooks",
+            "url": "https://openlibrary.org/subjects/textbooks"
+          },
+          {
+            "name": "Aspect psychologique",
+            "url": "https://openlibrary.org/subjects/aspect_psychologique"
+          },
+          {
+            "name": "Design",
+            "url": "https://openlibrary.org/subjects/design"
+          },
+          {
+            "name": "Humanities textbooks",
+            "url": "https://openlibrary.org/subjects/humanities_textbooks"
+          },
+          {
+            "name": "Projetos (administracao)",
+            "url": "https://openlibrary.org/subjects/projetos_(administracao)"
+          },
+          {
+            "name": "Human engineering",
+            "url": "https://openlibrary.org/subjects/human_engineering"
+          },
+          {
+            "name": "Long Now Manual for Civilization",
+            "url": "https://openlibrary.org/subjects/long_now_manual_for_civilization"
+          },
+          {
+            "name": "New York Times reviewed",
+            "url": "https://openlibrary.org/subjects/new_york_times_reviewed"
+          },
+          {
+            "name": "Cognitive psychology",
+            "url": "https://openlibrary.org/subjects/cognitive_psychology"
+          },
+          {
+            "name": "Livres numériques",
+            "url": "https://openlibrary.org/subjects/livres_numériques"
+          },
+          {
+            "name": "Ergonomics",
+            "url": "https://openlibrary.org/subjects/ergonomics"
+          },
+          {
+            "name": "E-books",
+            "url": "https://openlibrary.org/subjects/e-books"
+          },
+          {
+            "name": "BUSINESS & ECONOMICS",
+            "url": "https://openlibrary.org/subjects/business_&_economics"
+          },
+          {
+            "name": "Industries",
+            "url": "https://openlibrary.org/subjects/industries"
+          },
+          {
+            "name": "Retailing",
+            "url": "https://openlibrary.org/subjects/retailing"
+          },
+          {
+            "name": "Product",
+            "url": "https://openlibrary.org/subjects/product"
+          },
+          {
+            "name": "PSYCHOLOGY",
+            "url": "https://openlibrary.org/subjects/psychology"
+          },
+          {
+            "name": "Applied Psychology",
+            "url": "https://openlibrary.org/subjects/applied_psychology"
+          },
+          {
+            "name": "Electronic books",
+            "url": "https://openlibrary.org/subjects/electronic_books"
+          },
+          {
+            "name": "Industriell formgivning",
+            "url": "https://openlibrary.org/subjects/industriell_formgivning"
+          },
+          {
+            "name": "Psykologiska aspekter",
+            "url": "https://openlibrary.org/subjects/psykologiska_aspekter"
+          },
+          {
+            "name": "Industries / Retailing",
+            "url": "https://openlibrary.org/subjects/industries_/_retailing"
+          },
+          {
+            "name": "Mechanical Engineering",
+            "url": "https://openlibrary.org/subjects/mechanical_engineering"
+          },
+          {
+            "name": "Engineering & Applied Sciences",
+            "url": "https://openlibrary.org/subjects/engineering_&_applied_sciences"
+          },
+          {
+            "name": "Industrial & Management Engineering",
+            "url": "https://openlibrary.org/subjects/industrial_&_management_engineering"
+          },
+          {
+            "name": "Nonfiction",
+            "url": "https://openlibrary.org/subjects/nonfiction"
+          },
+          {
+            "name": "Art",
+            "url": "https://openlibrary.org/subjects/art"
+          },
+          {
+            "name": "Business",
+            "url": "https://openlibrary.org/subjects/business"
+          },
+          {
+            "name": "Industrial design--psychological aspects",
+            "url": "https://openlibrary.org/subjects/industrial_design--psychological_aspects"
+          },
+          {
+            "name": "Psychology, industrial",
+            "url": "https://openlibrary.org/subjects/psychology,_industrial"
+          },
+          {
+            "name": "Ts171.4 .n67 1990",
+            "url": "https://openlibrary.org/subjects/ts171.4_.n67_1990"
+          },
+          {
+            "name": "Ts 171.4 n842p 1990",
+            "url": "https://openlibrary.org/subjects/ts_171.4_n842p_1990"
+          },
+          {
+            "name": "620.8/2",
+            "url": "https://openlibrary.org/subjects/620.8/2"
+          },
+          {
+            "name": "Business & economics--industries--retailing",
+            "url": "https://openlibrary.org/subjects/business_&_economics--industries--retailing"
+          },
+          {
+            "name": "Psychology--applied psychology",
+            "url": "https://openlibrary.org/subjects/psychology--applied_psychology"
+          },
+          {
+            "name": "Design--product",
+            "url": "https://openlibrary.org/subjects/design--product"
+          },
+          {
+            "name": "Industriell formgivning--psykologiska aspekter",
+            "url": "https://openlibrary.org/subjects/industriell_formgivning--psykologiska_aspekter"
+          },
+          {
+            "name": "Ts171.4 .n67 2013",
+            "url": "https://openlibrary.org/subjects/ts171.4_.n67_2013"
+          },
+          {
+            "name": "745.2019",
+            "url": "https://openlibrary.org/subjects/745.2019"
+          },
+          {
+            "name": "745.2001/9",
+            "url": "https://openlibrary.org/subjects/745.2001/9"
+          },
+          {
+            "name": "Bus057000 psy003000 des011000",
+            "url": "https://openlibrary.org/subjects/bus057000_psy003000_des011000"
+          },
+          {
+            "name": "Cognitive science",
+            "url": "https://openlibrary.org/subjects/cognitive_science"
+          },
+          {
+            "name": "Design, drafting, drawing & presentation",
+            "url": "https://openlibrary.org/subjects/design,_drafting,_drawing_&_presentation"
+          },
+          {
+            "name": "Lighting",
+            "url": "https://openlibrary.org/subjects/lighting"
+          },
+          {
+            "name": "Data modeling & design",
+            "url": "https://openlibrary.org/subjects/data_modeling_&_design"
+          },
+          {
+            "name": "Site design",
+            "url": "https://openlibrary.org/subjects/site_design"
+          },
+          {
+            "name": "Branding & logo design",
+            "url": "https://openlibrary.org/subjects/branding_&_logo_design"
+          },
+          {
+            "name": "Design & construction",
+            "url": "https://openlibrary.org/subjects/design_&_construction"
+          },
+          {
+            "name": "Packaging",
+            "url": "https://openlibrary.org/subjects/packaging"
+          },
+          {
+            "name": "Decision-making & problem solving",
+            "url": "https://openlibrary.org/subjects/decision-making_&_problem_solving"
+          },
+          {
+            "name": "Industrial management",
+            "url": "https://openlibrary.org/subjects/industrial_management"
+          },
+          {
+            "name": "Computer industry",
+            "url": "https://openlibrary.org/subjects/computer_industry"
+          },
+          {
+            "name": "Manufacturing",
+            "url": "https://openlibrary.org/subjects/manufacturing"
+          },
+          {
+            "name": "Knowledge capital",
+            "url": "https://openlibrary.org/subjects/knowledge_capital"
+          },
+          {
+            "name": "Leadership",
+            "url": "https://openlibrary.org/subjects/leadership"
+          },
+          {
+            "name": "Operations research",
+            "url": "https://openlibrary.org/subjects/operations_research"
+          },
+          {
+            "name": "Organizational behavior",
+            "url": "https://openlibrary.org/subjects/organizational_behavior"
+          },
+          {
+            "name": "Skills",
+            "url": "https://openlibrary.org/subjects/skills"
+          },
+          {
+            "name": "Workplace culture",
+            "url": "https://openlibrary.org/subjects/workplace_culture"
+          },
+          {
+            "name": "Industrial & organizational psychology",
+            "url": "https://openlibrary.org/subjects/industrial_&_organizational_psychology"
+          },
+          {
+            "name": "Social psychology",
+            "url": "https://openlibrary.org/subjects/social_psychology"
+          },
+          {
+            "name": "Business & economics -> business -> industries",
+            "url": "https://openlibrary.org/subjects/business_&_economics_->_business_->_industries"
+          },
+          {
+            "name": "Professional, career & trade -> graphic arts/communications/design -> package design",
+            "url": "https://openlibrary.org/subjects/professional,_career_&_trade_->_graphic_arts/communications/design_->_package_design"
+          },
+          {
+            "name": "Social sciences -> psychology -> applied psychology",
+            "url": "https://openlibrary.org/subjects/social_sciences_->_psychology_->_applied_psychology"
+          },
+          {
+            "name": "Social sciences -> psychology -> cognitive psychology",
+            "url": "https://openlibrary.org/subjects/social_sciences_->_psychology_->_cognitive_psychology"
+          },
+          {
+            "name": "Biological sciences & nutrition -> biology -> cognitive science",
+            "url": "https://openlibrary.org/subjects/biological_sciences_&_nutrition_->_biology_->_cognitive_science"
+          },
+          {
+            "name": "Professional, career & trade -> architecture -> design, drawing & presentation",
+            "url": "https://openlibrary.org/subjects/professional,_career_&_trade_->_architecture_->_design,_drawing_&_presentation"
+          },
+          {
+            "name": "Professional, career & trade -> architecture -> interiors & interior design",
+            "url": "https://openlibrary.org/subjects/professional,_career_&_trade_->_architecture_->_interiors_&_interior_design"
+          },
+          {
+            "name": "Professional, career & trade -> computer science -> data modeling & design",
+            "url": "https://openlibrary.org/subjects/professional,_career_&_trade_->_computer_science_->_data_modeling_&_design"
+          },
+          {
+            "name": "Professional, career & trade -> computer science -> internet & www",
+            "url": "https://openlibrary.org/subjects/professional,_career_&_trade_->_computer_science_->_internet_&_www"
+          },
+          {
+            "name": "Professional, career & trade -> graphic arts/communications/design -> branding & logo design",
+            "url": "https://openlibrary.org/subjects/professional,_career_&_trade_->_graphic_arts/communications/design_->_branding_&_logo_design"
+          },
+          {
+            "name": "General interests & hobbies -> house & home -> house & home",
+            "url": "https://openlibrary.org/subjects/general_interests_&_hobbies_->_house_&_home_->_house_&_home"
+          },
+          {
+            "name": "Trades & technology -> industrial design -> general",
+            "url": "https://openlibrary.org/subjects/trades_&_technology_->_industrial_design_->_general"
+          },
+          {
+            "name": "Business & economics -> management -> special topics",
+            "url": "https://openlibrary.org/subjects/business_&_economics_->_management_->_special_topics"
+          },
+          {
+            "name": "Business & economics -> decision sciences -> management science",
+            "url": "https://openlibrary.org/subjects/business_&_economics_->_decision_sciences_->_management_science"
+          },
+          {
+            "name": "Business & economics -> management -> leadership",
+            "url": "https://openlibrary.org/subjects/business_&_economics_->_management_->_leadership"
+          },
+          {
+            "name": "Business & economics -> decision sciences -> production/operations management",
+            "url": "https://openlibrary.org/subjects/business_&_economics_->_decision_sciences_->_production/operations_management"
+          },
+          {
+            "name": "Business & economics -> management -> organizational behavior",
+            "url": "https://openlibrary.org/subjects/business_&_economics_->_management_->_organizational_behavior"
+          },
+          {
+            "name": "Business & economics -> business -> business studies",
+            "url": "https://openlibrary.org/subjects/business_&_economics_->_business_->_business_studies"
+          },
+          {
+            "name": "Business & economics -> business -> special topics",
+            "url": "https://openlibrary.org/subjects/business_&_economics_->_business_->_special_topics"
+          },
+          {
+            "name": "Social sciences -> psychology -> industrial & organizational psychology",
+            "url": "https://openlibrary.org/subjects/social_sciences_->_psychology_->_industrial_&_organizational_psychology"
+          },
+          {
+            "name": "Social sciences -> psychology -> social psychology",
+            "url": "https://openlibrary.org/subjects/social_sciences_->_psychology_->_social_psychology"
+          }
+        ],
+        "table_of_contents": [
+          {
+            "level": 0,
+            "label": "",
+            "title": "Preface to the Revised Edition",
+            "pagenum": "xi"
+          },
+          {
+            "level": 0,
+            "label": "1",
+            "title": "The Psychopathology of Everyday Things",
+            "pagenum": "1"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Complexity of Modern Devices",
+            "pagenum": "4"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Human-Centered Design",
+            "pagenum": "8"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Fundamental Principles of Interaction",
+            "pagenum": "10"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The System Image",
+            "pagenum": "31"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Paradox of Technology",
+            "pagenum": "32"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Design Challenge",
+            "pagenum": "34"
+          },
+          {
+            "level": 0,
+            "label": "2",
+            "title": "The Psychology of Everyday Actions",
+            "pagenum": "37"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "How People Do Things: The Gulfs of Execution and Evaluation",
+            "pagenum": "38"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Seven Stages of Action",
+            "pagenum": "40"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Human Thought: Mostly Subconscious",
+            "pagenum": "44"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Human Cognition and Emotion",
+            "pagenum": "49"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Seven Stages of Action and the Three Levels of Processing",
+            "pagenum": "55"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "People as Storytellers",
+            "pagenum": "56"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Blaming the Wrong Things",
+            "pagenum": "59"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Falsely Blaming Yourself",
+            "pagenum": "65"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Seven Stages of Action: Seven Fundamental Design Principles",
+            "pagenum": "71"
+          },
+          {
+            "level": 0,
+            "label": "3",
+            "title": "Knowledge in the Head and in the World",
+            "pagenum": "74"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Precise Behavior from Imprecise Knowledge",
+            "pagenum": "75"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Memory Is Knowledge in the Head",
+            "pagenum": "86"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Structure of Memory",
+            "pagenum": "91"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Approximate Models: Memory in the Real World",
+            "pagenum": "100"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Knowledge in the Head",
+            "pagenum": "105"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Tradeoff Between Knowledge in the World and in the Head",
+            "pagenum": "109"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Memory in Multiple Heads, Multiple Devices",
+            "pagenum": "111"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Natural Mapping",
+            "pagenum": "113"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Culture and Design: Natural Mappings Can Vary with Culture",
+            "pagenum": "118"
+          },
+          {
+            "level": 0,
+            "label": "4",
+            "title": "Knowing What to Do: Constraints, Discoverability, and Feedback",
+            "pagenum": "123"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Four Kinds of Constraints: Physical, Cultural, Semantic, and Logical",
+            "pagenum": "125"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Applying Affordances, Signifiers, and Constraints to Everyday Objects",
+            "pagenum": "132"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Constraints That Force the Desired Behavior",
+            "pagenum": "141"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Conventions, Constraints, and Affordances",
+            "pagenum": "145"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Faucet: A Case History of Design",
+            "pagenum": "150"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Using Sound as Signifiers",
+            "pagenum": "155"
+          },
+          {
+            "level": 0,
+            "label": "5",
+            "title": "Human Error? No, Bad Design",
+            "pagenum": "162"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Understanding Why There Is Error",
+            "pagenum": "163"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Deliberate Violations",
+            "pagenum": "169"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Two Types of Errors: Slips and Mistakes",
+            "pagenum": "170"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Classification of Slips",
+            "pagenum": "173"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Classification of Mistakes",
+            "pagenum": "179"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Social and Institutional Pressures",
+            "pagenum": "186"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Reporting Error",
+            "pagenum": "191"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Detecting Error",
+            "pagenum": "194"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Designing for Error",
+            "pagenum": "198"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "When Good Design Isn't Enough",
+            "pagenum": "210"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Resilience Engineering",
+            "pagenum": "211"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Paradox of Automation",
+            "pagenum": "213"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Design Principles for Dealing with Error",
+            "pagenum": "215"
+          },
+          {
+            "level": 0,
+            "label": "6",
+            "title": "Design Thinking",
+            "pagenum": "217"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Solving the Correct Problem",
+            "pagenum": "218"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Double-Diamond Model of Design",
+            "pagenum": "220"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Human-Centered Design Process",
+            "pagenum": "221"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "What I Just Told You? It Doesn't Really Work That Way",
+            "pagenum": "236"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Design Challenge",
+            "pagenum": "239"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Complexity Is Good; It Is Confusion That Is Bad",
+            "pagenum": "247"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Standardization and Technology",
+            "pagenum": "248"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Deliberately Making Things Difficult",
+            "pagenum": "255"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Design: Developing Technology for People",
+            "pagenum": "257"
+          },
+          {
+            "level": 0,
+            "label": "7",
+            "title": "Design in the World of Business",
+            "pagenum": "258"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Competitive Forces",
+            "pagenum": "259"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "New Technologies Force Change",
+            "pagenum": "264"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "How Long Does It Take to Introduce a New Product?",
+            "pagenum": "268"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Two Forms of Innovation: Incremental and Radical",
+            "pagenum": "279"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Design of Everyday Things: 1988-2038",
+            "pagenum": "282"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Future of Books",
+            "pagenum": "288"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "The Moral Obligations of Design",
+            "pagenum": "291"
+          },
+          {
+            "level": 1,
+            "label": "",
+            "title": "Design Thinking and Thinking About Design",
+            "pagenum": "293"
+          },
+          {
+            "level": 0,
+            "label": "",
+            "title": "Acknowledgments",
+            "pagenum": "299"
+          },
+          {
+            "level": 0,
+            "label": "",
+            "title": "General Readings and Notes",
+            "pagenum": "305"
+          },
+          {
+            "level": 0,
+            "label": "",
+            "title": "References",
+            "pagenum": "321"
+          },
+          {
+            "level": 0,
+            "label": "",
+            "title": "Index",
+            "pagenum": "331"
+          }
+        ],
+        "links": [
+          {
+            "title": "New York Times review",
+            "url": "http://www.nytimes.com/1988/09/11/books/warming-up-to-the-fridge.html"
+          }
+        ],
+        "ebooks": [
+          {
+            "preview_url": "https://archive.org/details/designofeveryday0000norm_n2y1",
+            "availability": "restricted",
+            "formats": {}
+          }
+        ],
+        "cover": {
+          "small": "https://covers.openlibrary.org/b/id/14428212-S.jpg",
+          "medium": "https://covers.openlibrary.org/b/id/14428212-M.jpg",
+          "large": "https://covers.openlibrary.org/b/id/14428212-L.jpg"
+        }
+      }
+    }
+  },
+  "meals": {
+    "url": "https://www.themealdb.com/api/json/v1/1/search.php?s=pasta",
+    "fetchedAt": "2026-10-02T12:02:32.832548+00:00",
+    "data": [
+      {
+        "idMeal": "52777",
+        "strMeal": "Mediterranean Pasta Salad",
+        "strCategory": "Seafood",
+        "strArea": "Italian",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+        "strSource": "https://thelemonsqueezy.com/recipe/mediterranean-pasta-salad/",
+        "strIngredient1": "mozzarella balls",
+        "strIngredient2": "baby plum tomatoes",
+        "strIngredient3": "fresh basil",
+        "strMeasure1": "200 g",
+        "strMeasure2": "250 g",
+        "strMeasure3": "1  bunch"
+      }
+    ]
+  },
+  "holidays": {
+    "url": "https://date.nager.at/api/v3/PublicHolidays/2026/RU",
+    "fetchedAt": "2026-10-02T12:02:32.851600+00:00",
+    "data": [
+      {
+        "date": "2026-01-01",
+        "localName": "Новый год",
+        "name": "New Year's Day",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-01-02",
+        "localName": "Новогодние каникулы",
+        "name": "New Year holiday",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-01-03",
+        "localName": "Новогодние каникулы",
+        "name": "New Year holiday",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-01-04",
+        "localName": "Новогодние каникулы",
+        "name": "New Year holiday",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-01-05",
+        "localName": "Новогодние каникулы",
+        "name": "New Year holiday",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-01-06",
+        "localName": "Новогодние каникулы",
+        "name": "New Year holiday",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-01-07",
+        "localName": "Рождество Христово",
+        "name": "Christmas Day (Orthodox)",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-02-23",
+        "localName": "День защитника Отечества",
+        "name": "Defender of the Fatherland Day",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-03-08",
+        "localName": "Международный женский день",
+        "name": "International Women's Day",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "localName": "День труда",
+        "name": "Labour Day",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-05-09",
+        "localName": "День Победы",
+        "name": "Victory Day",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-06-12",
+        "localName": "День России",
+        "name": "Russia Day",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      },
+      {
+        "date": "2026-11-04",
+        "localName": "День народного единства",
+        "name": "Unity Day",
+        "countryCode": "RU",
+        "fixed": false,
+        "global": true,
+        "counties": null,
+        "launchYear": null,
+        "types": [
+          "Public"
+        ]
+      }
+    ]
+  },
+  "cities": {
+    "url": "https://geocoding-api.open-meteo.com/v1/search?name=Kazan&count=3&language=ru&format=json",
+    "fetchedAt": "2026-10-02T12:02:32.802282+00:00",
+    "data": {
+      "results": [
+        {
+          "id": 551487,
+          "name": "Казань",
+          "latitude": 55.78874,
+          "longitude": 49.12214,
+          "elevation": 61.0,
+          "feature_code": "PPLA",
+          "country_code": "RU",
+          "admin1_id": 484048,
+          "admin2_id": 862913,
+          "timezone": "Europe/Moscow",
+          "population": 1243500,
+          "country_id": 2017370,
+          "country": "Россия",
+          "admin1": "Татарстан",
+          "admin2": "Gorodskoy Okrug Kazan’"
+        },
+        {
+          "id": 743615,
+          "name": "Kazan",
+          "latitude": 40.23167,
+          "longitude": 32.68389,
+          "elevation": 928.0,
+          "feature_code": "PPLA2",
+          "country_code": "TR",
+          "admin1_id": 323784,
+          "admin2_id": 7732167,
+          "timezone": "Europe/Istanbul",
+          "population": 23889,
+          "country_id": 298795,
+          "country": "Турция",
+          "admin1": "Анкара",
+          "admin2": "Kahramankazan"
+        },
+        {
+          "id": 730073,
+          "name": "Kotel",
+          "latitude": 42.88333,
+          "longitude": 26.45,
+          "elevation": 494.0,
+          "feature_code": "PPL",
+          "country_code": "BG",
+          "admin1_id": 864557,
+          "admin2_id": 730072,
+          "timezone": "Europe/Sofia",
+          "population": 6421,
+          "postcodes": [
+            "8970"
+          ],
+          "country_id": 732800,
+          "country": "Болгария",
+          "admin1": "Oblast Sliven",
+          "admin2": "Obshtina Kotel"
+        }
+      ],
+      "generationtime_ms": 1.6437769
+    }
+  },
+  "weather": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=55.79&longitude=49.12&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Europe%2FMoscow&forecast_days=3",
+    "fetchedAt": "2026-10-02T12:02:32.848173+00:00",
+    "data": {
+      "latitude": 55.8125,
+      "longitude": 49.125,
+      "generationtime_ms": 0.25141239166259766,
+      "utc_offset_seconds": 10800,
+      "timezone": "Europe/Moscow",
+      "timezone_abbreviation": "GMT+3",
+      "elevation": 78.0,
+      "daily_units": {
+        "time": "iso8601",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-10-02",
+          "2026-10-03",
+          "2026-10-04"
+        ],
+        "temperature_2m_max": [
+          6.4,
+          4.6,
+          8.6
+        ],
+        "temperature_2m_min": [
+          2.8,
+          2.1,
+          2.4
+        ],
+        "precipitation_probability_max": [
+          13,
+          65,
+          3
+        ]
+      }
+    }
+  },
+  "jobs": {
+    "url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs",
+    "fetchedAt": "2026-10-02T12:02:33.168100+00:00",
+    "data": [
+      {
+        "title": "AI Transformation Owner, Product & Design",
+        "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8716179002"
+      },
+      {
+        "title": "Backend Engineer, AI Engineering: Duo Chat",
+        "location": "Remote, Canada; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8698314002"
+      },
+      {
+        "title": "Backend Engineer, Create: Repository Management",
+        "location": "Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8843512002"
+      },
+      {
+        "title": "Backend Engineer, Create: Source Code Experience (Ruby)   ",
+        "location": "Remote, Canada",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687926002"
+      },
+      {
+        "title": "Backend Engineer (Python),AI Engineering: Agent Foundations",
+        "location": "Remote, Canada; Remote, Poland; Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8704363002"
+      },
+      {
+        "title": "Backend Engineer (Ruby), AI Engineering: Agent Foundations",
+        "location": "Remote, Canada; Remote, Poland; Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8620720002"
+      }
+    ]
+  },
+  "react": {
+    "url": "https://api.github.com/repos/facebook/react",
+    "fetchedAt": "2026-10-02T12:02:33.562031+00:00",
+    "data": {
+      "full_name": "react/react",
+      "html_url": "https://github.com/react/react",
+      "description": "The library for web and native user interfaces.",
+      "stargazers_count": 250856,
+      "language": "JavaScript",
+      "updated_at": "2026-10-02T11:41:14Z",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    }
+  },
+  "vite": {
+    "url": "https://api.github.com/repos/vitejs/vite",
+    "fetchedAt": "2026-10-02T12:02:33.204834+00:00",
+    "data": {
+      "full_name": "vitejs/vite",
+      "html_url": "https://github.com/vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "stargazers_count": 83099,
+      "language": "TypeScript",
+      "updated_at": "2026-10-02T11:41:12Z",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    }
+  },
+  "radix": {
+    "url": "https://api.github.com/repos/radix-ui/primitives",
+    "fetchedAt": "2026-10-02T12:02:33.270632+00:00",
+    "data": {
+      "full_name": "radix-ui/primitives",
+      "html_url": "https://github.com/radix-ui/primitives",
+      "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+      "stargazers_count": 19357,
+      "language": "TypeScript",
+      "updated_at": "2026-10-02T11:42:46Z",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    }
+  },
+  "typescript": {
+    "url": "https://api.github.com/repos/microsoft/TypeScript",
+    "fetchedAt": "2026-10-02T12:02:33.559130+00:00",
+    "data": {
+      "full_name": "microsoft/TypeScript",
+      "html_url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "stargazers_count": 111305,
+      "language": "Go",
+      "updated_at": "2026-10-02T11:41:13Z",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    }
+  }
+}

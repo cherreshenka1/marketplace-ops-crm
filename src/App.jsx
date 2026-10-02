@@ -1,3 +1,4 @@
+import OpenContext from './OpenContext.jsx'
 import { useEffect, useMemo, useState } from 'react'
 import initSqlJs from 'sql.js'
 import wasmUrl from 'sql.js/dist/sql-wasm.wasm?url'
@@ -121,6 +122,7 @@ export default function App() {
 
   return (
     <div className="crm-shell">
+      <header className="product-topbar"><a href="#workspace">Операции / Маркетплейс</a><nav><a href="#workspace">Рабочая область</a><a href="#open-data">Справочник</a><a href="https://cherreshenka1.github.io/portfolio/">Портфолио ↗</a></nav><span className="monogram">АБ</span></header>
       <header className="crm-hero">
         <p className="eyebrow">Marketplace Ops CRM</p>
         <h1>Заказы и остатки</h1>
@@ -136,7 +138,7 @@ export default function App() {
         ))}
       </section>
 
-      <main className="ops-grid">
+      <main id="workspace" className="ops-grid">
         <section className="orders-panel">
           <div className="panel-head">
             <h2>Заказы</h2>
@@ -249,6 +251,7 @@ export default function App() {
           )}
         </div>
       </section>
+      <OpenContext/>
     </div>
   )
 }
