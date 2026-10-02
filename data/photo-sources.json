@@ -1,0 +1,67 @@
+{
+  "kitchen": {
+    "url": "https://images.unsplash.com/photo-1532635211-8ec15f2ce05c?auto=format&fit=crop&w=1200&q=85",
+    "source": "https://unsplash.com/s/photos/cook",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "apartment": {
+    "url": "https://images.unsplash.com/photo-1723640582886-e17412c91319?auto=format&fit=crop&w=1000&q=85",
+    "source": "https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-fire-place-Ll_qggKYRYA",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "apartment-2": {
+    "url": "https://images.unsplash.com/photo-1631049421570-dafb48ce5e1b?auto=format&fit=crop&w=900&q=85",
+    "source": "https://unsplash.com/photos/black-leather-padded-chair-beside-brown-wooden-table-2f2sAisOrDw",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "headphones": {
+    "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=85",
+    "source": "https://unsplash.com",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "lamp": {
+    "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=85",
+    "source": "https://unsplash.com",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "backpack": {
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1000&q=85",
+    "source": "https://unsplash.com",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "keyboard": {
+    "url": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=1000&q=85",
+    "source": "https://unsplash.com",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "book-0": {
+    "url": "https://covers.openlibrary.org/b/id/8508178-L.jpg",
+    "source": "http://openlibrary.org/books/OL26832992M/Eloquent_JavaScript",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "book-2": {
+    "url": "https://covers.openlibrary.org/b/id/8509850-L.jpg",
+    "source": "http://openlibrary.org/books/OL26834162M/CSS",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "book-3": {
+    "url": "https://covers.openlibrary.org/b/id/8507565-L.jpg",
+    "source": "http://openlibrary.org/books/OL26629721M/Refactoring",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "book-4": {
+    "url": "https://covers.openlibrary.org/b/id/15126503-L.jpg",
+    "source": "http://openlibrary.org/books/OL26222911M/Clean_Code",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "book-5": {
+    "url": "https://covers.openlibrary.org/b/id/14428212-L.jpg",
+    "source": "http://openlibrary.org/books/OL25726927M/The_Design_of_Everyday_Things",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  },
+  "pasta": {
+    "url": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "source": "https://www.themealdb.com/meal/52777",
+    "usage": "Illustrative photograph / book cover, not a customer or property claim"
+  }
+}
