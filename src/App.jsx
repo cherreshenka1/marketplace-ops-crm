@@ -124,7 +124,7 @@ export default function App() {
     <div className="crm-shell">
       <header className="product-topbar"><a href="#workspace">Операции / Маркетплейс</a><nav><a href="#workspace">Рабочая область</a><a href="#open-data">Справочник</a><a href="https://cherreshenka1.github.io/portfolio/">Портфолио ↗</a></nav><span className="monogram">АБ</span></header>
       <header className="crm-hero">
-        <p className="eyebrow">Marketplace Ops CRM</p>
+        <p className="eyebrow">Рабочая область продавца</p>
         <h1>Заказы и остатки</h1>
         <p className="hero-text">От заказа до доставки: статусы, продавцы и история действий в одном рабочем пространстве.</p>
       </header>
