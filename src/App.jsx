@@ -23,6 +23,9 @@ export default function App() {
   const [sqlQuery, setSqlQuery] = useState(queryPresets[0].sql)
   const [queryRows, setQueryRows] = useState([])
   const [queryError, setQueryError] = useState('')
+  const [loadError, setLoadError] = useState('')
+  const [search, setSearch] = useState('')
+  const [statusFilter, setStatusFilter] = useState('Все')
 
   const reloadCrmData = (database) => {
     setOrders(
@@ -43,14 +46,28 @@ export default function App() {
   }
 
   useEffect(() => {
+    let disposed = false
+    let database
     initSqlJs({ locateFile: () => wasmUrl }).then((SQL) => {
-      const database = new SQL.Database()
-      database.run(seedSql)
+      if (disposed) return
+      try {
+        const saved = localStorage.getItem('marketplace-ops-db-v1')
+        database = saved ? new SQL.Database(Uint8Array.from(JSON.parse(saved))) : new SQL.Database()
+        if (!saved) database.run(seedSql)
+        reloadCrmData(database)
+      } catch {
+        database?.close()
+        database = new SQL.Database()
+        database.run(seedSql)
+        reloadCrmData(database)
+      }
       setDb(database)
-      reloadCrmData(database)
       setQueryRows(normalizeRows(database.exec(queryPresets[0].sql)))
-    })
+    }).catch(() => { if (!disposed) setLoadError('Не удалось загрузить базу. Обновите страницу и проверьте соединение.') })
+    return () => { disposed = true; database?.close() }
   }, [])
+
+  const visibleOrders = orders.filter(order => (statusFilter === 'Все' || order.status === statusFilter) && `${order.order_code} ${order.seller} ${order.product}`.toLowerCase().includes(search.toLowerCase()))
 
   const metrics = useMemo(() => {
     const revenue = orders.reduce((sum, order) => sum + order.total, 0)
@@ -58,7 +75,7 @@ export default function App() {
     const stockRisk = products.filter((product) => product.stock < 30).length
 
     return [
-      { label: 'Выручка', value: `${revenue.toLocaleString('ru-RU')} ₽` },
+      { label: 'Сумма заказов', value: `${revenue.toLocaleString('ru-RU')} ₽` },
       { label: 'Активные заказы', value: activeOrders },
       { label: 'Продавцы', value: sellers.length },
       { label: 'SKU с низким остатком', value: stockRisk },
@@ -69,6 +86,7 @@ export default function App() {
     if (!db) return
 
     try {
+      if (!/^\s*SELECT\b/i.test(sqlQuery) || /;\s*\S/.test(sqlQuery)) throw new Error('Консоль принимает один SELECT-запрос. Для изменения статуса используйте карточку заказа.')
       const result = db.exec(sqlQuery)
       setQueryRows(normalizeRows(result))
       setQueryError(result.length ? '' : 'Запрос выполнен, но строк в результате нет.')
@@ -79,7 +97,7 @@ export default function App() {
   }
 
   const advanceOrderStatus = (order) => {
-    if (!db) return
+    if (!db || order.status === 'Доставлен') return
 
     const nextStatus =
       statusFlow[Math.min(statusFlow.indexOf(order.status) + 1, statusFlow.length - 1)] ||
@@ -89,28 +107,27 @@ export default function App() {
     db.run(
       `INSERT INTO events (channel, message, created_at) VALUES (?, ?, ?)`,
       [
-        'Webhook',
+        'Оператор',
         `Статус ${order.order_code} изменён на "${nextStatus}"`,
         new Date().toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' }),
       ],
     )
 
+    try { localStorage.setItem('marketplace-ops-db-v1', JSON.stringify(Array.from(db.export()))) }
+    catch { setLoadError('Изменения доступны до закрытия страницы: хранилище браузера недоступно.') }
     reloadCrmData(db)
-    setQueryRows(normalizeRows(db.exec(sqlQuery)))
+    try { if (/^\s*SELECT\b/i.test(sqlQuery) && !/;\s*\S/.test(sqlQuery)) setQueryRows(normalizeRows(db.exec(sqlQuery))) } catch { setQueryError('Статус сохранён. Исправьте запрос, чтобы обновить таблицу.') }
   }
 
   return (
     <div className="crm-shell">
       <header className="crm-hero">
         <p className="eyebrow">Marketplace Ops CRM</p>
-        <h1>Операционная CRM маркетплейса с SQL-запросами и webhook-событиями</h1>
-        <p className="hero-text">
-          Проект объединяет заказы, продавцов, товары и поток событий в одном
-          интерфейсе. SQL-запросы выполняются прямо в браузере через SQLite/WASM.
-        </p>
+        <h1>Заказы и остатки</h1>
+        <p className="hero-text">От заказа до доставки: статусы, продавцы и история действий в одном рабочем пространстве.</p>
       </header>
 
-      <section className="metrics-grid">
+      <p className="demo-note">Учебная CRM. Данные и события демонстрационные, интеграции не подключены.</p>{loadError && <p role="alert">{loadError}</p>}{!db && !loadError && <p role="status">Загружаем рабочую область…</p>}<section className="metrics-grid">
         {metrics.map((metric) => (
           <article className="metric-card" key={metric.label}>
             <p>{metric.label}</p>
@@ -123,11 +140,11 @@ export default function App() {
         <section className="orders-panel">
           <div className="panel-head">
             <h2>Заказы</h2>
-            <span>SQL UPDATE статуса</span>
+            <span>{orders.length} заказов</span>
           </div>
 
-          <div className="orders-list">
-            {orders.map((order) => (
+          <div className="inline-tools"><input type="search" aria-label="Поиск заказов" placeholder="Номер, продавец или товар" value={search} onChange={e=>setSearch(e.target.value)}/><select aria-label="Статус заказа" value={statusFilter} onChange={e=>setStatusFilter(e.target.value)}>{['Все',...statusFlow].map(status=><option key={status}>{status}</option>)}</select></div><div className="orders-list">{db && !visibleOrders.length && <p className="empty-text">По этим условиям заказов нет. Измените поиск или статус.</p>}
+            {visibleOrders.map((order) => (
               <article className="order-row" key={order.id}>
                 <div>
                   <p>{order.order_code}</p>
@@ -138,8 +155,8 @@ export default function App() {
                   <b>{order.total.toLocaleString('ru-RU')} ₽</b>
                   <span>{order.status}</span>
                 </div>
-                <button type="button" onClick={() => advanceOrderStatus(order)}>
-                  Следующий статус
+                <button type="button" disabled={order.status === 'Доставлен'} onClick={() => advanceOrderStatus(order)}>
+                  {order.status === 'Новый' ? 'Взять в работу' : order.status === 'В обработке' ? 'Подтвердить доставку' : 'Доставлен'}
                 </button>
               </article>
             ))}
@@ -167,8 +184,8 @@ export default function App() {
 
           <article className="events-panel">
             <div className="panel-head">
-              <h2>Webhook / Telegram</h2>
-              <span>live feed</span>
+              <h2>История действий</h2>
+              <span>Демо-события</span>
             </div>
             <div className="mini-list">
               {events.map((event) => (
@@ -195,7 +212,7 @@ export default function App() {
         </div>
 
         <textarea
-          value={sqlQuery}
+          aria-label="SELECT-запрос" value={sqlQuery}
           onChange={(event) => setSqlQuery(event.target.value)}
           rows="8"
           spellCheck="false"

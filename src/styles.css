@@ -315,3 +315,27 @@ th {
     padding: 20px;
   }
 }
+
+/* Focused refinement: keep the original layout and palette. */
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; touch-action: manipulation; }
+button:disabled { opacity:.45; cursor:not-allowed; }
+:focus-visible { outline:3px solid #6494d3; outline-offset:3px; }
+input, select, textarea { max-width:100%; min-width:0; }
+h1, h2, h3 { text-wrap:balance; }
+.crm-hero { padding:28px 32px; border-radius:22px; box-shadow:none; }
+.crm-hero h1 { font-size:clamp(30px,3.5vw,48px); line-height:1.12; letter-spacing:-.04em; max-width:1000px; margin-top:12px; }
+.hero-text { font-size:15px!important; line-height:1.7!important; max-width:850px; }
+.demo-note { font-size:12px; line-height:1.6; opacity:.75; margin:18px 0; }
+.breakdown { margin:18px 0; font-size:13px; }
+.breakdown div { display:flex; justify-content:space-between; gap:16px; padding:9px 0; border-bottom:1px solid #8899aa30; }
+.inline-tools { display:flex; gap:10px; flex-wrap:wrap; margin:16px 0; }
+.inline-tools input { flex:1; min-width:130px; padding:10px 12px; border-radius:9px; }
+.inline-tools select { padding:10px; border-radius:9px; }
+.checklist .check-fail { color:#b65a32; }
+.status-box,.status-banner,.success-banner { overflow-wrap:anywhere; }
+.diagnostics { margin:26px 0; font-size:12px; opacity:.8; }
+.diagnostics summary { cursor:pointer; margin-bottom:16px; }
+.empty-text { line-height:1.7; }
+@media(max-width:600px){.crm-hero{padding:22px 18px} .hero-text{font-size:14px!important} .filters-row{flex-wrap:wrap} .filters-row>*{max-width:100%} }
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

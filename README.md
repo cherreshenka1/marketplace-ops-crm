@@ -1,35 +1,36 @@
-# Marketplace Ops CRM
+# marketplace-ops-crm
 
-CRM для операций маркетплейса с SQL-запросами, заказами, продавцами, товарами,
-webhook/Telegram-событиями и аналитикой.
+Самостоятельный интерактивный проект: заказы и остатки.
 
-## Живая версия
+[Открыть сайт](https://cherreshenka1.github.io/marketplace-ops-crm/) · [Кейс](https://cherreshenka1.github.io/portfolio/projects/marketplace-ops-crm/) · [Промпт и критерии доработки](https://github.com/cherreshenka1/portfolio/blob/main/prompts/marketplace-ops-crm.md)
 
-[https://cherreshenka1.github.io/marketplace-ops-crm/](https://cherreshenka1.github.io/marketplace-ops-crm/)
+## Сценарий
 
-## Особенность
+Найти заказ, изменить статус и проверить событие и SQL-результат.
 
-SQL здесь работает прямо в браузере через SQLite/WebAssembly (`sql.js`), поэтому проект
-можно открыть на GitHub Pages и при этом показывать реальные SQL-запросы.
+Статус заказа меняется последовательно и попадает в журнал. SQLite сохраняется в браузере; SELECT-консоль позволяет проверить данные без изменения таблиц.
 
-## Что есть
+## Границы
 
-- KPI по заказам, выручке и активным продавцам
-- Таблица заказов с обновлением статуса
-- Карточки продавцов и товаров
-- Лента webhook / Telegram событий
-- SQL-консоль с готовыми запросами и выводом результата
-- CRUD-like обновление статусов заказов через SQL `UPDATE`
+SQLite работает в браузере на демо-данных. Внешние webhook и Telegram не подключены.
 
-## Запуск
+## Проверить вручную
 
-```bash
-npm install
+1. Найти заказ.
+2. Изменить статус.
+3. Проверить журнал.
+4. Выполнить SELECT.
+
+Проверены основной сценарий и адаптивная вёрстка при ширине 390 и 1280 px. Это проверка прототипа, а не сертификация готовности к промышленной эксплуатации.
+
+## Разработка
+
+React 18, Vite 5. Node.js 20+.
+
+```sh
+npm ci
 npm run dev
+npm run build
 ```
 
-## Деплой
-
-```bash
-npm run deploy
-```
+`npm run deploy` собирает приложение и публикует `dist` в ветку `gh-pages` текущего репозитория.
