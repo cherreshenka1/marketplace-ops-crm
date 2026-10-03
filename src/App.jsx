@@ -16,6 +16,7 @@ function normalizeRows(result) {
 }
 
 export default function App() {
+  const [view,setView]=useState("orders")
   const [db, setDb] = useState(null)
   const [orders, setOrders] = useState([])
   const [sellers, setSellers] = useState([])
@@ -122,7 +123,7 @@ export default function App() {
 
   return (
     <div className="crm-shell">
-      <header className="product-topbar"><a href="#workspace">Операции / Маркетплейс</a><nav><a href="#workspace">Рабочая область</a><a href="#open-data">Справочник</a><a href="https://cherreshenka1.github.io/portfolio/">Портфолио ↗</a></nav><span className="monogram">АБ</span></header>
+      <header className="product-topbar"><a href="#workspace">Операции / Маркетплейс</a><nav><a href="#workspace">Рабочая область</a><a href="#sources" onClick={()=>{document.getElementById("sources").open=true}}>Справочник</a><a href="https://cherreshenka1.github.io/portfolio/">Портфолио ↗</a></nav><span className="monogram">АБ</span></header>
       <header className="crm-hero">
         <p className="eyebrow">Рабочая область продавца</p>
         <h1>Заказы и остатки</h1>
@@ -138,8 +139,8 @@ export default function App() {
         ))}
       </section>
 
-      <main id="workspace" className="ops-grid">
-        <section className="orders-panel">
+      <nav className="crm-tabs" aria-label="Рабочие области">{[["orders","Заказы"],["partners","Продавцы и события"],["sql","Данные / SQL"]].map(([id,label])=><button key={id} className={view===id?"active":""} onClick={()=>setView(id)}>{label}</button>)}</nav><main id="workspace" className="ops-grid" hidden={view==="sql"}>
+        <section className="orders-panel" hidden={view!=="orders"}>
           <div className="panel-head">
             <h2>Заказы</h2>
             <span>{orders.length} заказов</span>
@@ -165,7 +166,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="side-stack">
+        <section className="side-stack" hidden={view!=="partners"}>
           <article className="sellers-panel">
             <div className="panel-head">
               <h2>Продавцы</h2>
@@ -201,7 +202,7 @@ export default function App() {
         </section>
       </main>
 
-      <section className="sql-console">
+      <section className="sql-console" hidden={view!=="sql"}>
         <div className="panel-head">
           <h2>SQL-консоль</h2>
           <div className="preset-row">
@@ -251,7 +252,7 @@ export default function App() {
           )}
         </div>
       </section>
-      <OpenContext/>
+      <details className="sources" id="sources"><summary>О базе и справочных данных</summary><OpenContext/></details>
     </div>
   )
 }
